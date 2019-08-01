@@ -6,5 +6,5 @@
         document.querySelector('.popular-functionality__description').appendChild( popularFunctionalityList.descriptionlist );
                 
         // открытие 1 активного эл-та
-        addActiveLi.('.description-list_wrapper-1 .item-1 p');
+        popularFunctionalityList.addActiveLi('.description-list_wrapper-1 .item-1 p');
 })();

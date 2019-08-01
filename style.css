@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 .popular-functionality {
     margin-bottom: 40px;
 }
