@@ -277,5 +277,6 @@ const listItems = (function() {
     
     return {
         arrList : listItemsText,
+        arrListJSON : JSON.stringify(listItemsText),
     };
 })();
