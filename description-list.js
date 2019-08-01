@@ -42,6 +42,11 @@ const List = (function() {
             
         }
         
+        addActiveLi(CSSClass) {
+            this.target = document.querySelector(CSSClass);
+            this._activateDescriptionElem();
+        }
+
         // фабричный метод создания li 
         _addChildNodes(nodeHTML, start, end, ind) {
             let node = document.createElement(nodeHTML);
